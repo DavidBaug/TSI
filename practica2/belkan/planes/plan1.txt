@@ -1,0 +1,104 @@
+
+ff: parsing domain file
+domain 'EJERCICIO1-DOMAIN' defined
+ ... done.
+ff: parsing problem file
+problem 'EJERCICIO1-PROBLEMA2' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   19 into depth [1][2]
+                                  18            [1][2]
+                                  17            [1]
+                                  16            [1][2][3][4][5]
+                                  15            [1][2]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1][2][3][4][5]
+                                  11            [1][2][3][4][5][6]
+                                  10            [1]
+                                   9            [1][2]
+                                   8            [1][2]
+                                   7            [1][2][3][4][5][6][7][8][9][10][11]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1][2][3][4][5][6][7][8][9][10][11]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: IR HARRYPOTTER SUR Z1 Z6
+        1: COGER HARRYPOTTER MANZANA Z6
+        2: IR HARRYPOTTER SUR Z6 Z11
+        3: IR HARRYPOTTER SUR Z11 Z16
+        4: IR HARRYPOTTER SUR Z16 Z21
+        5: GIRAR-IZQUIERDA HARRYPOTTER SUR
+        6: ENTREGAR HARRYPOTTER MANZANA Z21 BRUJA
+        7: IR HARRYPOTTER ESTE Z21 Z22
+        8: IR HARRYPOTTER ESTE Z22 Z23
+        9: COGER HARRYPOTTER ALGORITMOS Z23
+       10: IR HARRYPOTTER ESTE Z23 Z24
+       11: GIRAR-IZQUIERDA HARRYPOTTER ESTE
+       12: IR HARRYPOTTER NORTE Z24 Z20
+       13: IR HARRYPOTTER NORTE Z20 Z15
+       14: IR HARRYPOTTER NORTE Z15 Z10
+       15: GIRAR-DERECHA HARRYPOTTER NORTE
+       16: GIRAR-DERECHA HARRYPOTTER ESTE
+       17: GIRAR-DERECHA HARRYPOTTER SUR
+       18: ENTREGAR HARRYPOTTER ALGORITMOS Z10 LEONARDODICAPRIO
+       19: IR HARRYPOTTER OESTE Z10 Z9
+       20: IR HARRYPOTTER OESTE Z9 Z8
+       21: GIRAR-IZQUIERDA HARRYPOTTER OESTE
+       22: COGER HARRYPOTTER ORO Z8
+       23: IR HARRYPOTTER SUR Z8 Z13
+       24: IR HARRYPOTTER SUR Z13 Z18
+       25: GIRAR-DERECHA HARRYPOTTER SUR
+       26: IR HARRYPOTTER OESTE Z18 Z17
+       27: GIRAR-DERECHA HARRYPOTTER OESTE
+       28: IR HARRYPOTTER NORTE Z17 Z12
+       29: ENTREGAR HARRYPOTTER ORO Z12 PRINCIPE
+       30: IR HARRYPOTTER NORTE Z12 Z7
+       31: IR HARRYPOTTER NORTE Z7 Z2
+       32: GIRAR-DERECHA HARRYPOTTER NORTE
+       33: IR HARRYPOTTER ESTE Z2 Z3
+       34: IR HARRYPOTTER ESTE Z3 Z4
+       35: GIRAR-DERECHA HARRYPOTTER ESTE
+       36: COGER HARRYPOTTER ROSAS Z4
+       37: IR HARRYPOTTER SUR Z4 Z9
+       38: IR HARRYPOTTER SUR Z9 Z14
+       39: IR HARRYPOTTER SUR Z14 Z19
+       40: GIRAR-DERECHA HARRYPOTTER SUR
+       41: ENTREGAR HARRYPOTTER ROSAS Z19 PRINCESA
+       42: GIRAR-DERECHA HARRYPOTTER OESTE
+       43: GIRAR-DERECHA HARRYPOTTER NORTE
+       44: IR HARRYPOTTER ESTE Z19 Z20
+       45: GIRAR-DERECHA HARRYPOTTER ESTE
+       46: IR HARRYPOTTER SUR Z20 Z25
+       47: GIRAR-DERECHA HARRYPOTTER SUR
+       48: COGER HARRYPOTTER OSCAR Z25
+       49: IR HARRYPOTTER OESTE Z25 Z24
+       50: IR HARRYPOTTER OESTE Z24 Z23
+       51: IR HARRYPOTTER OESTE Z23 Z22
+       52: GIRAR-DERECHA HARRYPOTTER OESTE
+       53: IR HARRYPOTTER NORTE Z22 Z17
+       54: ENTREGAR HARRYPOTTER OSCAR Z17 PROFESOR
+     
+
+time spent:    0.00 seconds instantiating 963 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 170 facts and 363 actions
+               0.00 seconds creating final representation with 165 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.00 seconds searching, evaluating 574 states, to a max depth of 11
+               0.00 seconds total time
+

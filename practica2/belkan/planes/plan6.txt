@@ -1,0 +1,121 @@
+
+ff: parsing domain file
+domain 'EJERCICIO1-DOMAIN' defined
+ ... done.
+ff: parsing problem file
+problem 'EJERCICIO1-PROBLEMA2' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+task contains conditional effects. turning off state domination.
+
+
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   20 into depth [1]
+                                  18            [1][2]
+                                  16            [1]
+                                  14            [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1][2][3][4][5][6][7][8][9][10][11][12]
+                                   5            [1][2][3][4][5][6][7][8][9][10][11][12][13][14][15]
+                                   4            [1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16]
+                                   3            [1][2][3][4][5][6][7][8][9][10][11][12][13][14][15]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: IR VOLDEMORT NORTE Z13 Z8 PIEDRA MOCHILA2
+        1: GIRAR-IZQUIERDA VOLDEMORT NORTE
+        2: COGER VOLDEMORT ORO Z8
+        3: IR HARRYPOTTER SUR Z1 Z6 PIEDRA MOCHILA2
+        4: IR HARRYPOTTER SUR Z6 Z11 ARENA MOCHILA2
+        5: GIRAR-IZQUIERDA HARRYPOTTER SUR
+        6: IR VOLDEMORT OESTE Z8 Z7 PIEDRA MOCHILA2
+        7: GIRAR-IZQUIERDA VOLDEMORT OESTE
+        8: IR VOLDEMORT SUR Z7 Z12 ARENA MOCHILA2
+        9: IR HARRYPOTTER ESTE Z11 Z12 ARENA MOCHILA2
+       10: ENTREGAR VOLDEMORT ORO Z12 PRINCIPE
+       11: IR HARRYPOTTER ESTE Z12 Z13 PIEDRA MOCHILA2
+       12: GIRAR-DERECHA HARRYPOTTER ESTE
+       13: IR HARRYPOTTER SUR Z13 Z18 PIEDRA MOCHILA2
+       14: IR HARRYPOTTER SUR Z18 Z23 PIEDRA MOCHILA2
+       15: GIRAR-IZQUIERDA HARRYPOTTER SUR
+       16: GIRAR-IZQUIERDA HARRYPOTTER ESTE
+       17: COGER HARRYPOTTER ALGORITMOS Z23
+       18: IR HARRYPOTTER NORTE Z23 Z18 PIEDRA MOCHILA2
+       19: GIRAR-IZQUIERDA HARRYPOTTER NORTE
+       20: IR HARRYPOTTER OESTE Z18 Z17 ARENA MOCHILA2
+       21: IR VOLDEMORT SUR Z12 Z17 ARENA MOCHILA2
+       22: DEJAR HARRYPOTTER ALGORITMOS Z17
+       23: COGER VOLDEMORT ALGORITMOS Z17
+       24: ENTREGAR VOLDEMORT ALGORITMOS Z17 PROFESOR
+       25: GIRAR-DERECHA HARRYPOTTER OESTE
+       26: IR HARRYPOTTER NORTE Z17 Z12 ARENA MOCHILA2
+       27: IR HARRYPOTTER NORTE Z12 Z7 PIEDRA MOCHILA2
+       28: GIRAR-IZQUIERDA HARRYPOTTER NORTE
+       29: IR HARRYPOTTER OESTE Z7 Z6 PIEDRA MOCHILA2
+       30: GIRAR-DERECHA HARRYPOTTER OESTE
+       31: GIRAR-DERECHA HARRYPOTTER NORTE
+       32: COGER HARRYPOTTER MANZANA Z6
+       33: IR HARRYPOTTER ESTE Z6 Z7 PIEDRA MOCHILA2
+       34: GIRAR-DERECHA HARRYPOTTER ESTE
+       35: IR HARRYPOTTER SUR Z7 Z12 ARENA MOCHILA2
+       36: IR HARRYPOTTER SUR Z12 Z17 ARENA MOCHILA2
+       37: ENTREGAR HARRYPOTTER MANZANA Z17 PROFESOR
+       38: GIRAR-IZQUIERDA HARRYPOTTER SUR
+       39: IR HARRYPOTTER ESTE Z17 Z18 PIEDRA MOCHILA2
+       40: GIRAR-DERECHA HARRYPOTTER ESTE
+       41: IR HARRYPOTTER SUR Z18 Z23 PIEDRA MOCHILA2
+       42: GIRAR-IZQUIERDA HARRYPOTTER SUR
+       43: IR HARRYPOTTER ESTE Z23 Z24 PIEDRA MOCHILA2
+       44: COGER HARRYPOTTER BIKINI Z24
+       45: IR HARRYPOTTER ESTE Z24 Z25 PIEDRA MOCHILA2
+       46: GUARDAR-MOCHILA HARRYPOTTER MOCHILA2 BIKINI
+       47: GIRAR-IZQUIERDA HARRYPOTTER ESTE
+       48: GIRAR-IZQUIERDA HARRYPOTTER NORTE
+       49: COGER HARRYPOTTER OSCAR Z25
+       50: IR HARRYPOTTER OESTE Z25 Z24 PIEDRA MOCHILA2
+       51: GIRAR-DERECHA HARRYPOTTER OESTE
+       52: IR HARRYPOTTER NORTE Z24 Z19 AGUA MOCHILA2
+       53: ENTREGAR HARRYPOTTER OSCAR Z19 PRINCESA
+       54: IR HARRYPOTTER NORTE Z19 Z14 AGUA MOCHILA2
+       55: GIRAR-IZQUIERDA HARRYPOTTER NORTE
+       56: IR HARRYPOTTER OESTE Z14 Z13 PIEDRA MOCHILA2
+       57: GIRAR-DERECHA HARRYPOTTER OESTE
+       58: IR HARRYPOTTER NORTE Z13 Z8 PIEDRA MOCHILA2
+       59: IR HARRYPOTTER NORTE Z8 Z3 ARENA MOCHILA2
+       60: COGER HARRYPOTTER ZAPATILLAS Z3
+       61: GIRAR-DERECHA HARRYPOTTER NORTE
+       62: IR HARRYPOTTER ESTE Z3 Z4 BOSQUE MOCHILA2
+       63: DEJAR HARRYPOTTER ZAPATILLAS Z4
+       64: GIRAR-DERECHA HARRYPOTTER ESTE
+       65: COGER HARRYPOTTER ROSAS Z4
+       66: IR HARRYPOTTER SUR Z4 Z9 AGUA MOCHILA2
+       67: IR HARRYPOTTER SUR Z9 Z14 AGUA MOCHILA2
+       68: IR HARRYPOTTER SUR Z14 Z19 AGUA MOCHILA2
+       69: ENTREGAR HARRYPOTTER ROSAS Z19 PRINCESA
+     
+
+time spent:    0.04 seconds instantiating 2022 easy, 404 hard action templates
+               0.01 seconds reachability analysis, yielding 257 facts and 1134 actions
+               0.00 seconds creating final representation with 252 relevant facts, 9 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               4.84 seconds searching, evaluating 57124 states, to a max depth of 16
+               4.89 seconds total time
+
